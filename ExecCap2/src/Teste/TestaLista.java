@@ -15,7 +15,7 @@ public class TestaLista {
 		Contato testaAltera = new Contato();
 		long id = 1;
 		
-		/*List<Contato> contatos = cDao.ListaContato();
+		List<Contato> contatos = cDao.ListaContato();
 		
 		
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
@@ -29,7 +29,7 @@ public class TestaLista {
 					 sdf.format(contato.getDataNascimento().getTime()) + "\n");
 			}
 		
-		*/
+		
 		
 		/*
 		testaAltera.setNome("Joao");
@@ -40,8 +40,8 @@ public class TestaLista {
 		
 	     cDao.Altera(testaAltera);
 	     */
-		testaAltera.setId(id);
-		cDao.Remove(testaAltera);
+		//testaAltera.setId(id);
+		//cDao.Remove(testaAltera);
 	     
 	}
 }

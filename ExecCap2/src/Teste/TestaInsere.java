@@ -16,7 +16,7 @@ public class TestaInsere {
 	public static void main(String[] args) throws SQLException {
        
 		
-		/*  Contato contato = new Contato();
+		 Contato contato = new Contato();
 	      contato.setNome("Clayton");
 	      contato.setEmail("contato2@caelum.com.br");
 	      contato.setEndereco("R. Vergueiro 3185 cj87");
@@ -29,17 +29,17 @@ public class TestaInsere {
 	      bd.adiciona(contato);
 
 	      System.out.println("Gravado!");
-	  */
+	  
 		
-		Funcionario func = new Funcionario();
+		//Funcionario func = new Funcionario();
 		
-		func.setNome("Francisco");
-		func.setUsuario("fr2");
-		func.setSenha("Brasil");
+		//func.setNome("Francisco");
+		//func.setUsuario("fr2");
+		//func.setSenha("Brasil");
 		
-		FuncionarioDao bd = new FuncionarioDao();
+		//FuncionarioDao bd = new FuncionarioDao();
 		
-		bd.adiciona(func);
+		//bd.adiciona(func);
 	
 	}
 }
